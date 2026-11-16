@@ -1,0 +1,80 @@
+{
+  "id": "runicclasses:barbarian",
+  "origin": "runicclasses:barbarian",
+  "icon": {
+    "item": "minecraft:iron_axe"
+  },
+  "color": "#A33A2A",
+  "stats": {
+    "primary": "runicskills:strength",
+    "secondary": "runicskills:constitution"
+  },
+  "start_level": 8,
+  "cap_bonus": 8,
+  "perks": [
+    {
+      "id": "runicclasses:cls_barbarian_bloodied_resolve",
+      "gate": "primary",
+      "level": 8,
+      "starting": true,
+      "values": {
+        "threshold": 50,
+        "bonus": 8
+      }
+    },
+    {
+      "id": "runicclasses:cls_barbarian_thick_hide",
+      "gate": "secondary",
+      "level": 8,
+      "starting": true,
+      "values": {
+        "health": 2
+      }
+    },
+    {
+      "id": "runicclasses:cls_barbarian_reckless_swing",
+      "gate": "primary",
+      "level": 16,
+      "values": {
+        "bonus": 12,
+        "knockback": 50
+      }
+    },
+    {
+      "id": "runicclasses:cls_barbarian_stubborn_renewal",
+      "gate": "secondary",
+      "level": 16,
+      "values": {
+        "threshold": 30,
+        "duration": 6,
+        "cooldown": 60
+      }
+    },
+    {
+      "id": "runicclasses:cls_barbarian_unstoppable",
+      "gate": "primary",
+      "level": 24,
+      "values": {
+        "duration": 5
+      }
+    },
+    {
+      "id": "runicclasses:cls_barbarian_titans_fury",
+      "gate": "secondary",
+      "level": 36,
+      "values": {
+        "cooldown": 300,
+        "duration": 6
+      }
+    }
+  ],
+  "powers": {
+    "mark": "runicclasses:cls_barbarian_fury_rising",
+    "seal": "runicclasses:cls_barbarian_blood_roar",
+    "crown": "runicclasses:cls_barbarian_unbroken"
+  },
+  "starter_bag": {
+    "loot_table": "runicclasses:bags/barbarian",
+    "bag_type": "runicclasses:barbarian_kit"
+  }
+}

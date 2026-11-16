@@ -1,0 +1,75 @@
+{
+  "id": "runicclasses:druid",
+  "origin": "runicclasses:druid",
+  "icon": {
+    "item": "minecraft:oak_sapling"
+  },
+  "color": "#5FA03E",
+  "stats": {
+    "primary": "runicskills:magic",
+    "secondary": "runicskills:endurance"
+  },
+  "start_level": 8,
+  "cap_bonus": 8,
+  "perks": [
+    {
+      "id": "runicclasses:cls_druid_bark_skin",
+      "gate": "primary",
+      "level": 8,
+      "starting": true,
+      "values": {
+        "armor": 1
+      }
+    },
+    {
+      "id": "runicclasses:cls_druid_herb_craft",
+      "gate": "secondary",
+      "level": 8,
+      "starting": true,
+      "values": {
+        "food": 1
+      }
+    },
+    {
+      "id": "runicclasses:cls_druid_thorns",
+      "gate": "primary",
+      "level": 16,
+      "values": {
+        "chance": 15,
+        "damage": 2
+      }
+    },
+    {
+      "id": "runicclasses:cls_druid_rooted",
+      "gate": "secondary",
+      "level": 16,
+      "values": {
+        "heal": 1,
+        "interval": 4
+      }
+    },
+    {
+      "id": "runicclasses:cls_druid_rain_blessed",
+      "gate": "primary",
+      "level": 24
+    },
+    {
+      "id": "runicclasses:cls_druid_lord_of_the_grove",
+      "gate": "secondary",
+      "level": 36,
+      "values": {
+        "interval": 10,
+        "radius": 4
+      }
+    }
+  ],
+  "powers": {
+    "mark": "runicclasses:cls_druid_vine_lash",
+    "seal": "runicclasses:cls_druid_thorned_mantle",
+    "crown": "runicclasses:cls_druid_heart_of_the_grove"
+  },
+  "starter_bag": {
+    "loot_table": "runicclasses:bags/druid",
+    "bag_type": "runicclasses:druid_kit"
+  }
+}

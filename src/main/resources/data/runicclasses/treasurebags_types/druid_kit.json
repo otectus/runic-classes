@@ -1,0 +1,13 @@
+{
+  "group": "runicclasses",
+  "displayName": {
+    "translate": "bag.runicclasses.druid_kit"
+  },
+  "lootTable": "runicclasses:bags/druid",
+  "rarity": "common",
+  "bagColor": "#5FA03E",
+  "bagOverlayColor": "#2E2A22",
+  "bagStringColor": "#6B4A2B",
+  "visible": true,
+  "dropsFromGroups": []
+}

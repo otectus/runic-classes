@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:swords",
+    "#minecraft:axes",
+    { "id": "#forge:tools/spears", "required": false },
+    { "id": "#spartanweaponry:spears", "required": false }
+  ]
+}

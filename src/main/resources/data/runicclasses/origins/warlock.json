@@ -1,0 +1,14 @@
+{
+  "icon": {
+    "item": "minecraft:ender_eye"
+  },
+  "order": 10,
+  "impact": 0,
+  "name": "origin.runicclasses.warlock.name",
+  "description": "origin.runicclasses.warlock.description",
+  "powers": [
+    "runicclasses:display_warlock_1",
+    "runicclasses:display_warlock_2",
+    "runicclasses:display_warlock_3"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "runicclasses:ranger",
+  "origin": "runicclasses:ranger",
+  "icon": {
+    "item": "minecraft:bow"
+  },
+  "color": "#4F7A3A",
+  "stats": {
+    "primary": "runicskills:dexterity",
+    "secondary": "runicskills:wisdom"
+  },
+  "start_level": 8,
+  "cap_bonus": 8,
+  "perks": [
+    {
+      "id": "runicclasses:cls_ranger_steady_draw",
+      "gate": "primary",
+      "level": 8,
+      "starting": true,
+      "values": {
+        "bonus": 8
+      }
+    },
+    {
+      "id": "runicclasses:cls_ranger_trailwise",
+      "gate": "secondary",
+      "level": 8,
+      "starting": true,
+      "values": {
+        "speed": 10
+      }
+    },
+    {
+      "id": "runicclasses:cls_ranger_quarry_brand",
+      "gate": "primary",
+      "level": 16,
+      "values": {
+        "duration": 6
+      }
+    },
+    {
+      "id": "runicclasses:cls_ranger_field_dressing",
+      "gate": "secondary",
+      "level": 16,
+      "values": {
+        "looting": 1
+      }
+    },
+    {
+      "id": "runicclasses:cls_ranger_deadeye",
+      "gate": "primary",
+      "level": 24,
+      "values": {
+        "bonus": 20
+      }
+    },
+    {
+      "id": "runicclasses:cls_ranger_warden_of_the_wild",
+      "gate": "secondary",
+      "level": 36,
+      "values": {
+        "pet_bonus": 20,
+        "reduction": 20
+      }
+    }
+  ],
+  "powers": {
+    "mark": "runicclasses:cls_ranger_second_arrow",
+    "seal": "runicclasses:cls_ranger_pin",
+    "crown": "runicclasses:cls_ranger_volley_of_the_watch"
+  },
+  "starter_bag": {
+    "loot_table": "runicclasses:bags/ranger",
+    "bag_type": "runicclasses:ranger_kit"
+  }
+}

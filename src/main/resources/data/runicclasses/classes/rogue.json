@@ -1,0 +1,75 @@
+{
+  "id": "runicclasses:rogue",
+  "origin": "runicclasses:rogue",
+  "icon": {
+    "item": "minecraft:tripwire_hook"
+  },
+  "color": "#4B5263",
+  "stats": {
+    "primary": "runicskills:dexterity",
+    "secondary": "runicskills:fortune"
+  },
+  "start_level": 8,
+  "cap_bonus": 8,
+  "perks": [
+    {
+      "id": "runicclasses:cls_rogue_backstab",
+      "gate": "primary",
+      "level": 8,
+      "starting": true,
+      "values": {
+        "bonus": 15
+      }
+    },
+    {
+      "id": "runicclasses:cls_rogue_light_fingers",
+      "gate": "secondary",
+      "level": 8,
+      "starting": true,
+      "values": {
+        "luck": 1
+      }
+    },
+    {
+      "id": "runicclasses:cls_rogue_evasive",
+      "gate": "primary",
+      "level": 16,
+      "values": {
+        "chance": 10
+      }
+    },
+    {
+      "id": "runicclasses:cls_rogue_treasure_sense",
+      "gate": "secondary",
+      "level": 16,
+      "values": {
+        "looting": 1
+      }
+    },
+    {
+      "id": "runicclasses:cls_rogue_assassinate",
+      "gate": "primary",
+      "level": 24,
+      "values": {
+        "bonus": 40
+      }
+    },
+    {
+      "id": "runicclasses:cls_rogue_lucky_strike",
+      "gate": "secondary",
+      "level": 36,
+      "values": {
+        "chance": 15
+      }
+    }
+  ],
+  "powers": {
+    "mark": "runicclasses:cls_rogue_opening_cut",
+    "seal": "runicclasses:cls_rogue_vanish",
+    "crown": "runicclasses:cls_rogue_deathmark"
+  },
+  "starter_bag": {
+    "loot_table": "runicclasses:bags/rogue",
+    "bag_type": "runicclasses:rogue_kit"
+  }
+}

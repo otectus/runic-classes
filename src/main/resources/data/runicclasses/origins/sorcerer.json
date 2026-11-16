@@ -1,0 +1,14 @@
+{
+  "icon": {
+    "item": "minecraft:blaze_powder"
+  },
+  "order": 9,
+  "impact": 0,
+  "name": "origin.runicclasses.sorcerer.name",
+  "description": "origin.runicclasses.sorcerer.description",
+  "powers": [
+    "runicclasses:display_sorcerer_1",
+    "runicclasses:display_sorcerer_2",
+    "runicclasses:display_sorcerer_3"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "icon": {
+    "item": "minecraft:shield"
+  },
+  "order": 13,
+  "impact": 0,
+  "name": "origin.runicclasses.paladin.name",
+  "description": "origin.runicclasses.paladin.description",
+  "powers": [
+    "runicclasses:display_paladin_1",
+    "runicclasses:display_paladin_2",
+    "runicclasses:display_paladin_3"
+  ]
+}

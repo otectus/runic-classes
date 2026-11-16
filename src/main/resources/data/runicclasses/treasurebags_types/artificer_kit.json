@@ -1,0 +1,13 @@
+{
+  "group": "runicclasses",
+  "displayName": {
+    "translate": "bag.runicclasses.artificer_kit"
+  },
+  "lootTable": "runicclasses:bags/artificer",
+  "rarity": "common",
+  "bagColor": "#C8713F",
+  "bagOverlayColor": "#2E2A22",
+  "bagStringColor": "#6B4A2B",
+  "visible": true,
+  "dropsFromGroups": []
+}

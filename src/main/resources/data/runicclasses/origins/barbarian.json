@@ -1,0 +1,14 @@
+{
+  "icon": {
+    "item": "minecraft:iron_axe"
+  },
+  "order": 1,
+  "impact": 0,
+  "name": "origin.runicclasses.barbarian.name",
+  "description": "origin.runicclasses.barbarian.description",
+  "powers": [
+    "runicclasses:display_barbarian_1",
+    "runicclasses:display_barbarian_2",
+    "runicclasses:display_barbarian_3"
+  ]
+}

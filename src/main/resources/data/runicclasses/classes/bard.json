@@ -1,0 +1,78 @@
+{
+  "id": "runicclasses:bard",
+  "origin": "runicclasses:bard",
+  "icon": {
+    "item": "minecraft:note_block"
+  },
+  "color": "#B25FA8",
+  "stats": {
+    "primary": "runicskills:intelligence",
+    "secondary": "runicskills:fortune"
+  },
+  "start_level": 8,
+  "cap_bonus": 8,
+  "perks": [
+    {
+      "id": "runicclasses:cls_bard_quick_study",
+      "gate": "primary",
+      "level": 8,
+      "starting": true,
+      "values": {
+        "discount": 5
+      }
+    },
+    {
+      "id": "runicclasses:cls_bard_silver_tongue",
+      "gate": "secondary",
+      "level": 8,
+      "starting": true,
+      "values": {
+        "discount": 10
+      }
+    },
+    {
+      "id": "runicclasses:cls_bard_battle_hymn",
+      "gate": "primary",
+      "level": 16,
+      "values": {
+        "radius": 8,
+        "speed": 8
+      }
+    },
+    {
+      "id": "runicclasses:cls_bard_fortunes_chord",
+      "gate": "secondary",
+      "level": 16,
+      "values": {
+        "luck": 1
+      }
+    },
+    {
+      "id": "runicclasses:cls_bard_hexbreaking_hymn",
+      "gate": "primary",
+      "level": 24,
+      "values": {
+        "radius": 8,
+        "reduction": 30
+      }
+    },
+    {
+      "id": "runicclasses:cls_bard_crescendo",
+      "gate": "secondary",
+      "level": 36,
+      "values": {
+        "radius": 8,
+        "heal": 2
+      }
+    }
+  ],
+  "powers": {
+    "mark": "runicclasses:cls_bard_opening_verse",
+    "seal": "runicclasses:cls_bard_dissonance",
+    "crown": "runicclasses:cls_bard_anthem"
+  },
+  "starter_bag": {
+    "loot_table": "runicclasses:bags/bard",
+    "bag_type": "runicclasses:bard_kit"
+  }
+}

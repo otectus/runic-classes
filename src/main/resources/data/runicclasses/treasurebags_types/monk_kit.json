@@ -1,0 +1,13 @@
+{
+  "group": "runicclasses",
+  "displayName": {
+    "translate": "bag.runicclasses.monk_kit"
+  },
+  "lootTable": "runicclasses:bags/monk",
+  "rarity": "common",
+  "bagColor": "#D9822B",
+  "bagOverlayColor": "#2E2A22",
+  "bagStringColor": "#6B4A2B",
+  "visible": true,
+  "dropsFromGroups": []
+}

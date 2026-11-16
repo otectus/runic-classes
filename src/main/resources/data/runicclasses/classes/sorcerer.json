@@ -1,0 +1,75 @@
+{
+  "id": "runicclasses:sorcerer",
+  "origin": "runicclasses:sorcerer",
+  "icon": {
+    "item": "minecraft:blaze_powder"
+  },
+  "color": "#E36C2A",
+  "stats": {
+    "primary": "runicskills:magic",
+    "secondary": "runicskills:constitution"
+  },
+  "start_level": 8,
+  "cap_bonus": 8,
+  "perks": [
+    {
+      "id": "runicclasses:cls_sorcerer_innate_reserves",
+      "gate": "primary",
+      "level": 8,
+      "starting": true,
+      "values": {
+        "bonus": 10
+      }
+    },
+    {
+      "id": "runicclasses:cls_sorcerer_hardy_vessel",
+      "gate": "secondary",
+      "level": 8,
+      "starting": true,
+      "values": {
+        "health": 2
+      }
+    },
+    {
+      "id": "runicclasses:cls_sorcerer_surge",
+      "gate": "primary",
+      "level": 16,
+      "values": {
+        "chance": 10
+      }
+    },
+    {
+      "id": "runicclasses:cls_sorcerer_arcane_skin",
+      "gate": "secondary",
+      "level": 16,
+      "values": {
+        "resist": 10
+      }
+    },
+    {
+      "id": "runicclasses:cls_sorcerer_volatile_blood",
+      "gate": "primary",
+      "level": 24,
+      "values": {
+        "threshold": 50
+      }
+    },
+    {
+      "id": "runicclasses:cls_sorcerer_overflow",
+      "gate": "secondary",
+      "level": 36,
+      "values": {
+        "heal": 5
+      }
+    }
+  ],
+  "powers": {
+    "mark": "runicclasses:cls_sorcerer_sparkvein",
+    "seal": "runicclasses:cls_sorcerer_cascade",
+    "crown": "runicclasses:cls_sorcerer_arcane_upwelling"
+  },
+  "starter_bag": {
+    "loot_table": "runicclasses:bags/sorcerer",
+    "bag_type": "runicclasses:sorcerer_kit"
+  }
+}

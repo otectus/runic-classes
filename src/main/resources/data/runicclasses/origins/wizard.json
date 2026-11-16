@@ -1,0 +1,14 @@
+{
+  "icon": {
+    "item": "minecraft:enchanted_book"
+  },
+  "order": 11,
+  "impact": 0,
+  "name": "origin.runicclasses.wizard.name",
+  "description": "origin.runicclasses.wizard.description",
+  "powers": [
+    "runicclasses:display_wizard_1",
+    "runicclasses:display_wizard_2",
+    "runicclasses:display_wizard_3"
+  ]
+}

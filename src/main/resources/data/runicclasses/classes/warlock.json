@@ -1,0 +1,75 @@
+{
+  "id": "runicclasses:warlock",
+  "origin": "runicclasses:warlock",
+  "icon": {
+    "item": "minecraft:ender_eye"
+  },
+  "color": "#6B3FA0",
+  "stats": {
+    "primary": "runicskills:magic",
+    "secondary": "runicskills:fortune"
+  },
+  "start_level": 8,
+  "cap_bonus": 8,
+  "perks": [
+    {
+      "id": "runicclasses:cls_warlock_dark_bargain",
+      "gate": "primary",
+      "level": 8,
+      "starting": true,
+      "values": {
+        "food": 1
+      }
+    },
+    {
+      "id": "runicclasses:cls_warlock_night_sight",
+      "gate": "secondary",
+      "level": 8,
+      "starting": true
+    },
+    {
+      "id": "runicclasses:cls_warlock_hex",
+      "gate": "primary",
+      "level": 16,
+      "values": {
+        "duration": 4,
+        "cooldown": 8
+      }
+    },
+    {
+      "id": "runicclasses:cls_warlock_soul_tithe",
+      "gate": "secondary",
+      "level": 16,
+      "values": {
+        "chance": 15,
+        "xp": 3
+      }
+    },
+    {
+      "id": "runicclasses:cls_warlock_lingering_curse",
+      "gate": "primary",
+      "level": 24,
+      "values": {
+        "bonus": 30
+      }
+    },
+    {
+      "id": "runicclasses:cls_warlock_pact_of_the_deep",
+      "gate": "secondary",
+      "level": 36,
+      "values": {
+        "threshold": 30,
+        "bonus": 25
+      }
+    }
+  ],
+  "powers": {
+    "mark": "runicclasses:cls_warlock_soul_leech",
+    "seal": "runicclasses:cls_warlock_patrons_shadow",
+    "crown": "runicclasses:cls_warlock_the_debt_comes_due"
+  },
+  "starter_bag": {
+    "loot_table": "runicclasses:bags/warlock",
+    "bag_type": "runicclasses:warlock_kit"
+  }
+}

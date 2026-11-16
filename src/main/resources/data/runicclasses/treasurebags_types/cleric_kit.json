@@ -1,0 +1,13 @@
+{
+  "group": "runicclasses",
+  "displayName": {
+    "translate": "bag.runicclasses.cleric_kit"
+  },
+  "lootTable": "runicclasses:bags/cleric",
+  "rarity": "common",
+  "bagColor": "#E0C25A",
+  "bagOverlayColor": "#2E2A22",
+  "bagStringColor": "#6B4A2B",
+  "visible": true,
+  "dropsFromGroups": []
+}

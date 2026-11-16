@@ -1,0 +1,13 @@
+{
+  "group": "runicclasses",
+  "displayName": {
+    "translate": "bag.runicclasses.fighter_kit"
+  },
+  "lootTable": "runicclasses:bags/fighter",
+  "rarity": "common",
+  "bagColor": "#8C94A3",
+  "bagOverlayColor": "#2E2A22",
+  "bagStringColor": "#6B4A2B",
+  "visible": true,
+  "dropsFromGroups": []
+}

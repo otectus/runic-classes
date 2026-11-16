@@ -1,0 +1,75 @@
+{
+  "id": "runicclasses:monk",
+  "origin": "runicclasses:monk",
+  "icon": {
+    "item": "minecraft:bamboo"
+  },
+  "color": "#D9822B",
+  "stats": {
+    "primary": "runicskills:dexterity",
+    "secondary": "runicskills:endurance"
+  },
+  "start_level": 8,
+  "cap_bonus": 8,
+  "perks": [
+    {
+      "id": "runicclasses:cls_monk_open_hand",
+      "gate": "primary",
+      "level": 8,
+      "starting": true,
+      "values": {
+        "damage": 3
+      }
+    },
+    {
+      "id": "runicclasses:cls_monk_centred_breath",
+      "gate": "secondary",
+      "level": 8,
+      "starting": true,
+      "values": {
+        "reduction": 30
+      }
+    },
+    {
+      "id": "runicclasses:cls_monk_flowing_step",
+      "gate": "primary",
+      "level": 16,
+      "values": {
+        "speed": 10
+      }
+    },
+    {
+      "id": "runicclasses:cls_monk_deflect",
+      "gate": "secondary",
+      "level": 16,
+      "values": {
+        "chance": 20
+      }
+    },
+    {
+      "id": "runicclasses:cls_monk_flurry",
+      "gate": "primary",
+      "level": 24,
+      "values": {
+        "speed": 20
+      }
+    },
+    {
+      "id": "runicclasses:cls_monk_stillness",
+      "gate": "secondary",
+      "level": 36,
+      "values": {
+        "delay": 2
+      }
+    }
+  ],
+  "powers": {
+    "mark": "runicclasses:cls_monk_opening_palm",
+    "seal": "runicclasses:cls_monk_quivering_strike",
+    "crown": "runicclasses:cls_monk_perfect_form"
+  },
+  "starter_bag": {
+    "loot_table": "runicclasses:bags/monk",
+    "bag_type": "runicclasses:monk_kit"
+  }
+}

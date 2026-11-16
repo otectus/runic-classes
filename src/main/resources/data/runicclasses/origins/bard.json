@@ -1,0 +1,14 @@
+{
+  "icon": {
+    "item": "minecraft:note_block"
+  },
+  "order": 6,
+  "impact": 0,
+  "name": "origin.runicclasses.bard.name",
+  "description": "origin.runicclasses.bard.description",
+  "powers": [
+    "runicclasses:display_bard_1",
+    "runicclasses:display_bard_2",
+    "runicclasses:display_bard_3"
+  ]
+}

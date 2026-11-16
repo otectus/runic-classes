@@ -1,0 +1,12 @@
+{
+  "icon": {
+    "item": "minecraft:compass"
+  },
+  "order": 14,
+  "impact": 0,
+  "name": "origin.runicclasses.classless.name",
+  "description": "origin.runicclasses.classless.description",
+  "powers": [
+    "runicclasses:display_classless_1"
+  ]
+}

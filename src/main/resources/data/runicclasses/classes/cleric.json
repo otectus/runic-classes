@@ -1,0 +1,79 @@
+{
+  "id": "runicclasses:cleric",
+  "origin": "runicclasses:cleric",
+  "icon": {
+    "item": "minecraft:bell"
+  },
+  "color": "#E0C25A",
+  "stats": {
+    "primary": "runicskills:wisdom",
+    "secondary": "runicskills:magic"
+  },
+  "start_level": 8,
+  "cap_bonus": 8,
+  "perks": [
+    {
+      "id": "runicclasses:cls_cleric_blessed_vitality",
+      "gate": "primary",
+      "level": 8,
+      "starting": true,
+      "values": {
+        "bonus": 15
+      }
+    },
+    {
+      "id": "runicclasses:cls_cleric_consecrated_weapon",
+      "gate": "secondary",
+      "level": 8,
+      "starting": true,
+      "values": {
+        "bonus": 15
+      }
+    },
+    {
+      "id": "runicclasses:cls_cleric_mending_touch",
+      "gate": "primary",
+      "level": 16,
+      "values": {
+        "bonus": 25
+      }
+    },
+    {
+      "id": "runicclasses:cls_cleric_turn_the_dead",
+      "gate": "secondary",
+      "level": 16,
+      "values": {
+        "chance": 15,
+        "duration": 3
+      }
+    },
+    {
+      "id": "runicclasses:cls_cleric_sanctuary",
+      "gate": "primary",
+      "level": 24,
+      "values": {
+        "threshold": 50,
+        "duration": 3,
+        "cooldown": 10
+      }
+    },
+    {
+      "id": "runicclasses:cls_cleric_intercession",
+      "gate": "secondary",
+      "level": 36,
+      "values": {
+        "cooldown": 300,
+        "health": 50
+      }
+    }
+  ],
+  "powers": {
+    "mark": "runicclasses:cls_cleric_radiant_burst",
+    "seal": "runicclasses:cls_cleric_ward_of_light",
+    "crown": "runicclasses:cls_cleric_beacon"
+  },
+  "starter_bag": {
+    "loot_table": "runicclasses:bags/cleric",
+    "bag_type": "runicclasses:cleric_kit"
+  }
+}

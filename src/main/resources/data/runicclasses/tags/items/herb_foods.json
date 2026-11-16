@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:apple",
+    "minecraft:carrot",
+    "minecraft:potato",
+    "minecraft:baked_potato",
+    "minecraft:beetroot",
+    "minecraft:melon_slice",
+    "minecraft:sweet_berries",
+    "minecraft:glow_berries",
+    "minecraft:chorus_fruit",
+    { "id": "#forge:fruits", "required": false },
+    { "id": "#forge:vegetables", "required": false },
+    { "id": "#forge:berries", "required": false }
+  ]
+}

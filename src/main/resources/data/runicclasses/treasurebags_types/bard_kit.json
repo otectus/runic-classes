@@ -1,0 +1,13 @@
+{
+  "group": "runicclasses",
+  "displayName": {
+    "translate": "bag.runicclasses.bard_kit"
+  },
+  "lootTable": "runicclasses:bags/bard",
+  "rarity": "common",
+  "bagColor": "#B25FA8",
+  "bagOverlayColor": "#2E2A22",
+  "bagStringColor": "#6B4A2B",
+  "visible": true,
+  "dropsFromGroups": []
+}

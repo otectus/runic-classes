@@ -1,0 +1,13 @@
+{
+  "group": "runicclasses",
+  "displayName": {
+    "translate": "bag.runicclasses.classless_kit"
+  },
+  "lootTable": "runicclasses:bags/classless",
+  "rarity": "common",
+  "bagColor": "#BFA46A",
+  "bagOverlayColor": "#2E2A22",
+  "bagStringColor": "#6B4A2B",
+  "visible": true,
+  "dropsFromGroups": []
+}

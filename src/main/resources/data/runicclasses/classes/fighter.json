@@ -1,0 +1,76 @@
+{
+  "id": "runicclasses:fighter",
+  "origin": "runicclasses:fighter",
+  "icon": {
+    "item": "minecraft:iron_sword"
+  },
+  "color": "#8C94A3",
+  "stats": {
+    "primary": "runicskills:strength",
+    "secondary": "runicskills:endurance"
+  },
+  "start_level": 8,
+  "cap_bonus": 8,
+  "perks": [
+    {
+      "id": "runicclasses:cls_fighter_weapon_drill",
+      "gate": "primary",
+      "level": 8,
+      "starting": true,
+      "values": {
+        "bonus": 6
+      }
+    },
+    {
+      "id": "runicclasses:cls_fighter_quartermaster",
+      "gate": "secondary",
+      "level": 8,
+      "starting": true,
+      "values": {
+        "reduction": 10
+      }
+    },
+    {
+      "id": "runicclasses:cls_fighter_riposte",
+      "gate": "primary",
+      "level": 16,
+      "values": {
+        "window": 3,
+        "bonus": 25
+      }
+    },
+    {
+      "id": "runicclasses:cls_fighter_battle_rhythm",
+      "gate": "secondary",
+      "level": 16,
+      "values": {
+        "bonus": 15
+      }
+    },
+    {
+      "id": "runicclasses:cls_fighter_armor_mastery",
+      "gate": "primary",
+      "level": 24,
+      "values": {
+        "toughness": 2
+      }
+    },
+    {
+      "id": "runicclasses:cls_fighter_champion",
+      "gate": "secondary",
+      "level": 36,
+      "values": {
+        "crit": 25
+      }
+    }
+  ],
+  "powers": {
+    "mark": "runicclasses:cls_fighter_measured_cut",
+    "seal": "runicclasses:cls_fighter_bulwark_call",
+    "crown": "runicclasses:cls_fighter_last_stand"
+  },
+  "starter_bag": {
+    "loot_table": "runicclasses:bags/fighter",
+    "bag_type": "runicclasses:fighter_kit"
+  }
+}

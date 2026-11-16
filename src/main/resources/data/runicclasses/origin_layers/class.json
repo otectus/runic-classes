@@ -1,0 +1,32 @@
+{
+  "replace": true,
+  "order": 20,
+  "enabled": true,
+  "origins": [
+    "runicclasses:barbarian",
+    "runicclasses:fighter",
+    "runicclasses:monk",
+    "runicclasses:rogue",
+    "runicclasses:ranger",
+    "runicclasses:bard",
+    "runicclasses:cleric",
+    "runicclasses:druid",
+    "runicclasses:sorcerer",
+    "runicclasses:warlock",
+    "runicclasses:wizard",
+    "runicclasses:artificer",
+    "runicclasses:paladin",
+    "runicclasses:classless"
+  ],
+  "name": "layer.runicclasses.class.name",
+  "missing_origin": {
+    "name": "layer.runicclasses.class.missing_origin.name",
+    "description": "layer.runicclasses.class.missing_origin.description"
+  },
+  "gui_title": {
+    "choose_origin": "layer.runicclasses.class.choose",
+    "view_origin": "layer.runicclasses.class.view"
+  },
+  "allow_random": false,
+  "auto_choose": false
+}

@@ -1,0 +1,75 @@
+{
+  "id": "runicclasses:artificer",
+  "origin": "runicclasses:artificer",
+  "icon": {
+    "item": "minecraft:piston"
+  },
+  "color": "#C8713F",
+  "stats": {
+    "primary": "runicskills:intelligence",
+    "secondary": "runicskills:tinkering"
+  },
+  "start_level": 8,
+  "cap_bonus": 8,
+  "perks": [
+    {
+      "id": "runicclasses:cls_artificer_field_notes",
+      "gate": "primary",
+      "level": 8,
+      "starting": true,
+      "values": {
+        "bonus": 5
+      }
+    },
+    {
+      "id": "runicclasses:cls_artificer_tinkers_eye",
+      "gate": "secondary",
+      "level": 8,
+      "starting": true,
+      "values": {
+        "bonus": 10
+      }
+    },
+    {
+      "id": "runicclasses:cls_artificer_steady_hands",
+      "gate": "primary",
+      "level": 16,
+      "values": {
+        "bonus": 10
+      }
+    },
+    {
+      "id": "runicclasses:cls_artificer_keen_edge",
+      "gate": "secondary",
+      "level": 16,
+      "values": {
+        "bonus": 5
+      }
+    },
+    {
+      "id": "runicclasses:cls_artificer_overclock",
+      "gate": "primary",
+      "level": 24,
+      "values": {
+        "bonus": 10
+      }
+    },
+    {
+      "id": "runicclasses:cls_artificer_master_infuser",
+      "gate": "secondary",
+      "level": 36,
+      "values": {
+        "chance": 10
+      }
+    }
+  ],
+  "powers": {
+    "mark": "runicclasses:cls_artificer_spring_trap",
+    "seal": "runicclasses:cls_artificer_field_repair",
+    "crown": "runicclasses:cls_artificer_arc_capacitor"
+  },
+  "starter_bag": {
+    "loot_table": "runicclasses:bags/artificer",
+    "bag_type": "runicclasses:artificer_kit"
+  }
+}

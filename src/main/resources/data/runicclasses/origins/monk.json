@@ -1,0 +1,14 @@
+{
+  "icon": {
+    "item": "minecraft:bamboo"
+  },
+  "order": 3,
+  "impact": 0,
+  "name": "origin.runicclasses.monk.name",
+  "description": "origin.runicclasses.monk.description",
+  "powers": [
+    "runicclasses:display_monk_1",
+    "runicclasses:display_monk_2",
+    "runicclasses:display_monk_3"
+  ]
+}

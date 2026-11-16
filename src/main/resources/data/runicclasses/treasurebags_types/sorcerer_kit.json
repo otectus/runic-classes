@@ -1,0 +1,13 @@
+{
+  "group": "runicclasses",
+  "displayName": {
+    "translate": "bag.runicclasses.sorcerer_kit"
+  },
+  "lootTable": "runicclasses:bags/sorcerer",
+  "rarity": "common",
+  "bagColor": "#E36C2A",
+  "bagOverlayColor": "#2E2A22",
+  "bagStringColor": "#6B4A2B",
+  "visible": true,
+  "dropsFromGroups": []
+}

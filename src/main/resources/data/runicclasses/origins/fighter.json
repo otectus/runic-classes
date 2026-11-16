@@ -1,0 +1,14 @@
+{
+  "icon": {
+    "item": "minecraft:iron_sword"
+  },
+  "order": 2,
+  "impact": 0,
+  "name": "origin.runicclasses.fighter.name",
+  "description": "origin.runicclasses.fighter.description",
+  "powers": [
+    "runicclasses:display_fighter_1",
+    "runicclasses:display_fighter_2",
+    "runicclasses:display_fighter_3"
+  ]
+}

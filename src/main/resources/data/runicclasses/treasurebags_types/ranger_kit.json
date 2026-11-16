@@ -1,0 +1,13 @@
+{
+  "group": "runicclasses",
+  "displayName": {
+    "translate": "bag.runicclasses.ranger_kit"
+  },
+  "lootTable": "runicclasses:bags/ranger",
+  "rarity": "common",
+  "bagColor": "#4F7A3A",
+  "bagOverlayColor": "#2E2A22",
+  "bagStringColor": "#6B4A2B",
+  "visible": true,
+  "dropsFromGroups": []
+}

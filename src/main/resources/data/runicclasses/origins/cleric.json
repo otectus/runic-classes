@@ -1,0 +1,14 @@
+{
+  "icon": {
+    "item": "minecraft:bell"
+  },
+  "order": 7,
+  "impact": 0,
+  "name": "origin.runicclasses.cleric.name",
+  "description": "origin.runicclasses.cleric.description",
+  "powers": [
+    "runicclasses:display_cleric_1",
+    "runicclasses:display_cleric_2",
+    "runicclasses:display_cleric_3"
+  ]
+}

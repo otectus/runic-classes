@@ -1,0 +1,13 @@
+{
+  "group": "runicclasses",
+  "displayName": {
+    "translate": "bag.runicclasses.paladin_kit"
+  },
+  "lootTable": "runicclasses:bags/paladin",
+  "rarity": "common",
+  "bagColor": "#F0D27A",
+  "bagOverlayColor": "#2E2A22",
+  "bagStringColor": "#6B4A2B",
+  "visible": true,
+  "dropsFromGroups": []
+}

@@ -1,0 +1,14 @@
+{
+  "icon": {
+    "item": "minecraft:piston"
+  },
+  "order": 12,
+  "impact": 0,
+  "name": "origin.runicclasses.artificer.name",
+  "description": "origin.runicclasses.artificer.description",
+  "powers": [
+    "runicclasses:display_artificer_1",
+    "runicclasses:display_artificer_2",
+    "runicclasses:display_artificer_3"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "group": "runicclasses",
+  "displayName": {
+    "translate": "bag.runicclasses.warlock_kit"
+  },
+  "lootTable": "runicclasses:bags/warlock",
+  "rarity": "common",
+  "bagColor": "#6B3FA0",
+  "bagOverlayColor": "#2E2A22",
+  "bagStringColor": "#6B4A2B",
+  "visible": true,
+  "dropsFromGroups": []
+}

@@ -1,0 +1,80 @@
+{
+  "id": "runicclasses:paladin",
+  "origin": "runicclasses:paladin",
+  "icon": {
+    "item": "minecraft:shield"
+  },
+  "color": "#F0D27A",
+  "stats": {
+    "primary": "runicskills:constitution",
+    "secondary": "runicskills:wisdom"
+  },
+  "start_level": 8,
+  "cap_bonus": 8,
+  "perks": [
+    {
+      "id": "runicclasses:cls_paladin_devout_bulwark",
+      "gate": "primary",
+      "level": 8,
+      "starting": true,
+      "values": {
+        "armor": 1
+      }
+    },
+    {
+      "id": "runicclasses:cls_paladin_laying_of_hands",
+      "gate": "secondary",
+      "level": 8,
+      "starting": true,
+      "values": {
+        "heal": 4,
+        "cooldown": 60
+      }
+    },
+    {
+      "id": "runicclasses:cls_paladin_valiant_presence",
+      "gate": "primary",
+      "level": 16,
+      "values": {
+        "radius": 6,
+        "armor": 1
+      }
+    },
+    {
+      "id": "runicclasses:cls_paladin_smite",
+      "gate": "secondary",
+      "level": 16,
+      "values": {
+        "bonus": 20
+      }
+    },
+    {
+      "id": "runicclasses:cls_paladin_bulwark",
+      "gate": "primary",
+      "level": 24,
+      "values": {
+        "heal": 1,
+        "cooldown": 3
+      }
+    },
+    {
+      "id": "runicclasses:cls_paladin_oathkeeper",
+      "gate": "secondary",
+      "level": 36,
+      "values": {
+        "cooldown": 300,
+        "radius": 8,
+        "health": 20
+      }
+    }
+  ],
+  "powers": {
+    "mark": "runicclasses:cls_paladin_righteous_blow",
+    "seal": "runicclasses:cls_paladin_aegis",
+    "crown": "runicclasses:cls_paladin_avatar_of_the_oath"
+  },
+  "starter_bag": {
+    "loot_table": "runicclasses:bags/paladin",
+    "bag_type": "runicclasses:paladin_kit"
+  }
+}

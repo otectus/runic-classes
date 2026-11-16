@@ -1,0 +1,13 @@
+{
+  "group": "runicclasses",
+  "displayName": {
+    "translate": "bag.runicclasses.barbarian_kit"
+  },
+  "lootTable": "runicclasses:bags/barbarian",
+  "rarity": "common",
+  "bagColor": "#A33A2A",
+  "bagOverlayColor": "#2E2A22",
+  "bagStringColor": "#6B4A2B",
+  "visible": true,
+  "dropsFromGroups": []
+}

@@ -1,0 +1,12 @@
+{
+  "id": "runicclasses:classless",
+  "origin": "runicclasses:classless",
+  "icon": {
+    "item": "minecraft:compass"
+  },
+  "color": "#BFA46A",
+  "starter_bag": {
+    "loot_table": "runicclasses:bags/classless",
+    "bag_type": "runicclasses:classless_kit"
+  }
+}

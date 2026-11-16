@@ -1,0 +1,75 @@
+{
+  "id": "runicclasses:wizard",
+  "origin": "runicclasses:wizard",
+  "icon": {
+    "item": "minecraft:enchanted_book"
+  },
+  "color": "#3E5FBF",
+  "stats": {
+    "primary": "runicskills:intelligence",
+    "secondary": "runicskills:magic"
+  },
+  "start_level": 8,
+  "cap_bonus": 8,
+  "perks": [
+    {
+      "id": "runicclasses:cls_wizard_scholars_eye",
+      "gate": "primary",
+      "level": 8,
+      "starting": true,
+      "values": {
+        "power": 1
+      }
+    },
+    {
+      "id": "runicclasses:cls_wizard_arcane_focus",
+      "gate": "secondary",
+      "level": 8,
+      "starting": true,
+      "values": {
+        "bonus": 5
+      }
+    },
+    {
+      "id": "runicclasses:cls_wizard_spell_economy",
+      "gate": "primary",
+      "level": 16,
+      "values": {
+        "reduction": 10
+      }
+    },
+    {
+      "id": "runicclasses:cls_wizard_counter_ward",
+      "gate": "secondary",
+      "level": 16,
+      "values": {
+        "resist": 15
+      }
+    },
+    {
+      "id": "runicclasses:cls_wizard_prodigy",
+      "gate": "primary",
+      "level": 24,
+      "values": {
+        "discount": 10
+      }
+    },
+    {
+      "id": "runicclasses:cls_wizard_archmage",
+      "gate": "secondary",
+      "level": 36,
+      "values": {
+        "bonus": 20
+      }
+    }
+  ],
+  "powers": {
+    "mark": "runicclasses:cls_wizard_studied_strike",
+    "seal": "runicclasses:cls_wizard_recitation",
+    "crown": "runicclasses:cls_wizard_grand_working"
+  },
+  "starter_bag": {
+    "loot_table": "runicclasses:bags/wizard",
+    "bag_type": "runicclasses:wizard_kit"
+  }
+}
